@@ -1,0 +1,73 @@
+.generated_files/
+build/
+dist/
+nbproject/
+Makefile*
+Package-*
+private/
+cmake/**/CMake*
+cmake/**/.generated/*
+!cmake/**/user.cmake
+_build/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production build files
+dist/
+build/
+.next/ # For Next.js projects that often use Redux
+out/ # For other build outputs
+
+# Miscellaneous
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode/ # VSCode settings
+*.tgz
+.npm/
+
+# Testing
+/coverage
+.nyc_output
+
+# Editor directories and files
+.idea/
+.project
+.classpath
+.c9/
+*.swp
+*.swo
+
+# macOS specific files
+.Trashes
+Thumbs.db
+
+# npm package manager cache
+.npmrc
+
+# Yarn Plug'n'Play
+.pnp.*
+
+# pnpm-store
+.pnpm-store
+
+# Cloudflare Workers
+.wrangler/
+
+# For Storybook (if used with Redux)
+storybook-static/
+
+# For Parcel (if used with Redux)
+.parcel-cache/
